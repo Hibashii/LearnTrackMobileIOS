@@ -1,0 +1,60 @@
+# ============================================
+# macOS & Xcode .gitignore
+# ============================================
+
+# -------- macOS --------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# -------- Xcode --------
+build/
+DerivedData/
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Workspace settings
+*.xcuserstate
+
+# User-specific Xcode files
+*.xcworkspace/xcuserdata/
+project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# SwiftUI previews
+*.timeline
+
+# Crash logs
+*.crash
+*.ips
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Simulator
+~/Library/Logs/CoreSimulator/*
+
