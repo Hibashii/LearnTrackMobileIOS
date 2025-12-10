@@ -11,8 +11,8 @@ import Supabase
 final class SupabaseClientManager {
     static let shared = SupabaseClientManager()
 
-    private let supabaseUrl = URL(string: "https://nbcrkbjhywyxrgjwxwus.supabase.co")!
-    private let supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5iY3JrYmpoeXd5eHJnand4d3VzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUxNDI2NTEsImV4cCI6MjA4MDcxODY1MX0.oJUa92URf62UlUP0EHl83WmUEDDA8HWAgpOmfQ1-JAQ"
+    private let supabaseUrl = URL(string: "https://qijvrqzdznsposonqlvr.supabase.co")!
+    private let supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpanZycXpkem5zcG9zb25xbHZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzNTkwMjUsImV4cCI6MjA4MDkzNTAyNX0.tYL0Wi9pX7ieaKFn9_s94JHLf1HwX0c6Sii8BzDWFEU"
 
     let client: SupabaseClient
 
